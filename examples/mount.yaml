@@ -1,0 +1,10 @@
+api: cosi.dev
+version: v1alpha1
+kind: Mount
+namespace: system
+id: tmp
+spec:
+  type: tmpfs
+  source: tmpfs
+  target: /tmp
+  options: []
